@@ -1,10 +1,27 @@
 {
 .appVersion = "3337";
 .formatVersion = 3;
+DisplayStrings = (
+SiEsTa
+);
 date = "2025-06-06 06:47:23 +0000";
 familyName = "New Font";
 fontMaster = (
 {
+guides = (
+{
+pos = (-121,220);
+},
+{
+pos = (-121,245);
+},
+{
+pos = (-121,421);
+},
+{
+pos = (-121,550);
+}
+);
 id = m01;
 metricValues = (
 {
@@ -75,10 +92,61 @@ unicode = 68;
 },
 {
 glyphname = E;
+lastChange = "2025-06-18 16:03:10 +0000";
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(363,800,l),
+(-100,800,l),
+(129,20,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(353,800,l),
+(280,551,l),
+(288,544,l),
+(363,800,l)
+);
+}
+);
+};
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-85,788,l),
+(-100,800,l),
+(129,20,l),
+(237,379,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-85,788,l),
+(297,579,l),
+(363,800,l),
+(-100,800,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,589,l),
+(82,503,l),
+(90,496,l),
+(297,579,l)
+);
+}
+);
+width = 263;
 }
 );
 unicode = 69;
@@ -215,7 +283,7 @@ unicode = 82;
 },
 {
 glyphname = S;
-lastChange = "2025-06-06 06:56:51 +0000";
+lastChange = "2025-06-18 15:46:33 +0000";
 layers = (
 {
 background = {
@@ -229,12 +297,6 @@ nodes = (
 );
 }
 );
-};
-backgroundImage = {
-imagePath = "siesta verano.bmp";
-locked = 1;
-pos = (-127,-28);
-scale = (0.4912,0.4912);
 };
 guides = (
 {
@@ -286,10 +348,45 @@ unicode = 83;
 },
 {
 glyphname = T;
+lastChange = "2025-06-18 16:02:06 +0000";
 layers = (
 {
+guides = (
+{
+pos = (129,800);
+},
+{
+angle = 90;
+pos = (129,379);
+},
+{
+angle = 73.2568;
+pos = (183,200);
+}
+);
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(11,421,l),
+(169,800,l),
+(-100,800,l),
+(129,20,l),
+(289,549,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(301,591,l),
+(51,591,l),
+(51,580,l),
+(297,580,l)
+);
+}
+);
+width = 263;
 }
 );
 unicode = 84;
@@ -356,10 +453,40 @@ unicode = 90;
 },
 {
 glyphname = a;
+lastChange = "2025-06-18 16:03:16 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(348,12,l),
+(363,0,l),
+(134,780,l),
+(26,421,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(348,12,l),
+(-34,221,l),
+(-100,0,l),
+(363,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-29,211,l),
+(181,297,l),
+(173,304,l),
+(-34,221,l)
+);
+}
+);
+width = 263;
 }
 );
 unicode = 97;
@@ -436,10 +563,51 @@ unicode = 104;
 },
 {
 glyphname = i;
+lastChange = "2025-06-18 15:53:56 +0000";
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-99,0,l),
+(364,0,l),
+(130,780,l)
+);
+}
+);
+};
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,555,l),
+(130,780,l),
+(64,555,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(63,552,l),
+(-99,0,l),
+(-84,12,l),
+(238,421,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(364,0,l),
+(298,221,l),
+(-84,12,l),
+(-99,0,l)
+);
+}
+);
+width = 264;
 }
 );
 unicode = 105;
