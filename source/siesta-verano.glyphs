@@ -2,7 +2,8 @@
 .appVersion = "3337";
 .formatVersion = 3;
 DisplayStrings = (
-abcde
+abcde,
+"abcdefghibjklmnopqrstuvwxyz  "
 );
 date = "2025-06-06 06:47:23 +0000";
 familyName = "New Font";
@@ -847,7 +848,7 @@ unicode = 97;
 },
 {
 glyphname = b;
-lastChange = "2025-07-02 10:11:15 +0000";
+lastChange = "2025-08-22 15:55:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -1094,7 +1095,7 @@ unicode = 101;
 },
 {
 glyphname = f;
-lastChange = "2025-07-02 10:01:27 +0000";
+lastChange = "2025-08-22 15:50:20 +0000";
 layers = (
 {
 background = {
@@ -1146,15 +1147,44 @@ nodes = (
 width = 263;
 },
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(299,800,l),
+(-30,0,l),
+(633,0,l)
+);
+}
+);
+};
 layerId = "6AEB73DF-AB25-40A2-91CF-25D7B6E2A2D2";
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(478,431,l),
+(26,386,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(412,530,l),
+(298,797,l),
+(-30,0,l)
+);
+}
+);
+width = 533;
 }
 );
 unicode = 102;
 },
 {
 glyphname = g;
-lastChange = "2025-07-02 10:01:27 +0000";
+lastChange = "2025-08-22 15:52:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -1192,15 +1222,53 @@ nodes = (
 width = 263;
 },
 {
+background = {
+shapes = (
+{
+attr = {
+identifier = ID0x10140e460;
+strokePos = "0";
+};
+closed = 0;
+nodes = (
+(437,499,l),
+(521,700,l),
+(-59,700,l),
+(188,100,l),
+(270,100,l),
+(382,368,l)
+);
+}
+);
+};
 layerId = "6AEB73DF-AB25-40A2-91CF-25D7B6E2A2D2";
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(563,797,l),
+(235,0,l),
+(188,100,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(357,297,l),
+(121,267,l),
+(-100,797,l),
+(537,734,l)
+);
+}
+);
+width = 463;
 }
 );
 unicode = 103;
 },
 {
 glyphname = h;
-lastChange = "2025-07-02 10:01:27 +0000";
+lastChange = "2025-08-22 15:53:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -1208,7 +1276,24 @@ width = 600;
 },
 {
 layerId = "6AEB73DF-AB25-40A2-91CF-25D7B6E2A2D2";
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-100,0,l),
+(228,797,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(106,500,l),
+(342,530,l),
+(563,0,l)
+);
+}
+);
+width = 463;
 }
 );
 unicode = 104;
@@ -1216,7 +1301,7 @@ unicode = 104;
 {
 color = 0;
 glyphname = i;
-lastChange = "2025-07-02 10:01:27 +0000";
+lastChange = "2025-08-22 15:55:51 +0000";
 layers = (
 {
 background = {
@@ -1264,7 +1349,21 @@ width = 264;
 },
 {
 layerId = "6AEB73DF-AB25-40A2-91CF-25D7B6E2A2D2";
-width = 600;
+shapes = (
+{
+attr = {
+strokePos = "0";
+};
+closed = 0;
+nodes = (
+(-59,700,l),
+(188,100,l),
+(270,100,l),
+(382,368,l)
+);
+}
+);
+width = 372;
 }
 );
 unicode = 105;
